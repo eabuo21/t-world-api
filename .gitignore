@@ -1,0 +1,70 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build directories
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+*.lock
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage files
+coverage/
+.nyc_output/
+
+# Database files
+*.sqlite
+*.sqlite3
+db-data/
+db-backup/
+
+# Debugger
+.vscode/launch.json
+*.tgz
+
+# System files
+*.iml
+*.log
+*.gz
+
+# Ignore local development docker containers (if applicable)
+docker-compose.override.yml
+
+# Ignore cache files
+.cache/
+.pnpm-debug.log*
+
+# Ignore test outputs
+jest-test-results.json
